@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke">
+    <test name="Sum Test" parallel="classes" thread-count="2">
+        <classes>
+            <class name="org.tms.calc.SumTest"></class>
+        </classes>
+    </test>
+    <test name="Dif Test">
+        <classes>
+            <class name="org.tms.calc.DifferenceTest"></class>
+        </classes>
+    </test>
+    <test name="Multi Test">
+        <classes>
+            <class name="org.tms.calc.MultiplicationTest"></class>
+        </classes>
+    </test>
+    <test name="Div Test">
+        <classes>
+            <class name="org.tms.calc.DivisionTest"></class>
+        </classes>
+    </test>
+</suite>
